@@ -34,9 +34,20 @@ module.exports = {
           buttonText: "刷新"
         }
       }
+    ],
+    [
+      '@vssue/vuepress-plugin-vssue', {
+        // 设置 `platform` 而不是 `api`
+        platform: 'github-v4',
+        // 其他的 Vssue 配置
+        owner: 'qjwsmile',
+        repo: 'vue_press',
+        clientId: '40f698a5e4b17508ceff',
+        clientSecret: '1600cf016fc6984be198ec6fcc50628ac0e48b37',
+        autoCreateIssue:true
+      }
     ]
   ],
-  extend: '@vuepress/theme-default',
   title: 'smile',
   description: 'Just playing around',
   themeConfig:{

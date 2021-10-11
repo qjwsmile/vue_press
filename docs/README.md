@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /hero.png
-heroText: Hero 标题
+heroText: Hero 标题 pwd
 tagline: Hero 副标题
 actionText: 快速上手 →
 actionLink: /css/css1/
@@ -16,4 +16,3 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
 
-## 测试pwd
