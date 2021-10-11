@@ -1,6 +1,7 @@
 module.exports = {
   base:'/vue_press/',
   head:[
+   
     ['meta',{name:"author",content:'smile'}],
     ['meta',{name:"keywords",content:'vuepress,vuepress笔记,vuepress博客,smile'}],
     ['link', { rel: 'icon', href: '/smile.ico' }],
@@ -14,6 +15,7 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   plugins: [
+   ['@vuepress/back-to-top'],
    require("./plugins/copy/index"),
    [
       '@vuepress/last-updated',
@@ -45,6 +47,12 @@ module.exports = {
         clientId: '40f698a5e4b17508ceff',
         clientSecret: '1600cf016fc6984be198ec6fcc50628ac0e48b37',
         autoCreateIssue:true
+      }
+    ],
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-209955543-1'
       }
     ]
   ],

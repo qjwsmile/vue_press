@@ -19,6 +19,8 @@
     "moment": "^2.29.1"
   },
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-google-analytics": "^1.8.2",
     "@vuepress/plugin-pwa": "^1.8.2",
     "element-ui": "^2.15.6",
     "node-sass": "^4.12.0",
