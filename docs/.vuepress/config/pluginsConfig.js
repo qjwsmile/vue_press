@@ -39,5 +39,10 @@ module.exports = [
      {
        'ga': secert.ga
      }
+   ],
+   [
+    '@vuepress/medium-zoom', {
+      selector: 'img.zoom'
+    }
    ]
  ]
