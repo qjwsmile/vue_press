@@ -12,7 +12,6 @@
 
 <img class="zoom" :src="$withBase('/children.jpg')" >
 
-![An image](/children.jpg)
 
 ```  css{2}
   .text{
