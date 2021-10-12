@@ -9,3 +9,4 @@ TODOs.md
 dist
 /private-config.js
 docs/.vuepress/.cache/
+secert.js
