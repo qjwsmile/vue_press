@@ -93,5 +93,12 @@ module.exports = [
        shape:'star', // shape of the particle, default: 'star'
        zIndex: 999999999, // z-index property of the canvas, default: 999999999
     },
+  ],
+  [
+    "vuepress-plugin-live2d",
+      {
+        "modelName": ['z16','Epsilon2.1','izumi','koharu','shizuku','miku', 'hijiki', 'tororo'],
+        "mobileShow": false
+      }
   ]
  ]
