@@ -68,15 +68,15 @@ export default {
       let delay = 0;
       this.spans = [...document.querySelectorAll(".hero .description span")];
       this.spans.forEach((span, i) => {
-        delay += 0.1;
+        delay += 0.15;
         if (this.strs[this.currentIndex].hasOwnProperty("stop")) {
           if (this.strs[this.currentIndex].stop instanceof Array) {
             if (this.strs[this.currentIndex].stop.includes(i)) {
-              delay += 0.3;
+              delay += 0.45;
             }
           } else {
             if (this.strs[this.currentIndex].stop == i) {
-              delay += 0.3;
+              delay += 0.45;
             }
           }
         }
