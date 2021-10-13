@@ -195,7 +195,16 @@ export default {
       height: 1.2rem;
     }
     .hero .description::after {
-       height: 1rem;
+      content: "";
+      display: inline;
+      position: absolute;
+      width: 0.1rem;
+      height: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgb(238, 103, 92);
+      border-radius: 2px;
+      right: -0.6rem;
     }
 }
 
