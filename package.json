@@ -8,7 +8,8 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh",
-    "cname": "bash cname.sh"
+    "cname": "bash cname.sh",
+    "docs:nav": "vuepress nav docs"
   },
   "author": "",
   "license": "ISC",
@@ -27,6 +28,7 @@
     "element-ui": "^2.15.6",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
   }
 }

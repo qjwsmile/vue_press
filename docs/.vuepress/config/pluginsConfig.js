@@ -44,5 +44,19 @@ module.exports = [
     '@vuepress/medium-zoom', {
       selector: 'img.zoom'
     }
-   ]
+   ],
+   ["vuepress-plugin-auto-sidebar",
+    {
+      title: {
+        // 更多选项: 
+        // `default`、`lowercase`、`uppercase`、`capitalize`、`camelcase`、`kebabcase`、`titlecase`
+        mode: "titlecase"
+      },
+      collapse: {
+        // 折叠
+        open: true
+      },
+     
+    }
+  ]
  ]

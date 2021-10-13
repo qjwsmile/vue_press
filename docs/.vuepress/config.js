@@ -1,6 +1,6 @@
 const head = require('./config/headConfig')
 const plugins = require('./config/pluginsConfig')
-const sidebar = require('./config/sidebarConfig')
+const nav = require("./nav.js");
 
 module.exports = {
   base:'/vue_press/',
@@ -11,6 +11,6 @@ module.exports = {
   themeConfig:{
     lastUpdated: '更新时间',
     smoothScroll: true,
-    sidebar
+    nav
   }
 }
