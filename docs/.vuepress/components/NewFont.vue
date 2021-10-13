@@ -192,16 +192,18 @@ export default {
 @media screen and (max-width: 750px) {
     .hero .description span{
       font-size: 0.8rem;
+      line-height: 0.8rem;
     }
     .hero .description {
-      height: 1.2rem;
+      height: 0.8rem;
+      line-height: 1rem;
     }
     .hero .description::after {
       content: "";
       display: inline;
       position: absolute;
       width: 0.1rem;
-      height: 1rem;
+      height: 0.8rem;
       top: 50%;
       transform: translateY(-50%);
       background-color: rgb(238, 103, 92);
