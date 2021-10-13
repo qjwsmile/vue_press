@@ -72,11 +72,11 @@ export default {
         if (this.strs[this.currentIndex].hasOwnProperty("stop")) {
           if (this.strs[this.currentIndex].stop instanceof Array) {
             if (this.strs[this.currentIndex].stop.includes(i)) {
-              delay += 0.45;
+              delay += 0.25;
             }
           } else {
             if (this.strs[this.currentIndex].stop == i) {
-              delay += 0.45;
+              delay += 0.25;
             }
           }
         }
