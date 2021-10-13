@@ -156,6 +156,7 @@ export default {
   position: relative;
   width: fit-content;
   height: 3.2rem;
+  background: red;
 }
 
 .hero .description::after {
@@ -185,6 +186,7 @@ export default {
   font-weight: 600;
   font-size: 2rem;
   color: rgb(238, 103, 92);
+  background: gold;
 }
 
 @media screen and (max-width: 750px) {
