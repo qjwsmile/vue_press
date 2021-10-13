@@ -156,7 +156,6 @@ export default {
   position: relative;
   width: fit-content;
   height: 3.2rem;
-  background: red;
 }
 
 .hero .description::after {
@@ -165,6 +164,7 @@ export default {
   position: absolute;
   width: 0.2rem;
   height: 2rem;
+  line-height: 2rem;
   top: 50%;
   transform: translateY(-50%);
   background-color: rgb(238, 103, 92);
@@ -186,29 +186,20 @@ export default {
   font-weight: 600;
   font-size: 2rem;
   color: rgb(238, 103, 92);
-  background: gold;
 }
 
 @media screen and (max-width: 750px) {
     .hero .description span{
-      font-size: 0.8rem;
-      line-height: 0.8rem;
+      font-size: 1rem;
     }
     .hero .description {
-      height: 0.8rem;
+      height: 1rem;
       line-height: 1rem;
     }
     .hero .description::after {
-      content: "";
-      display: inline;
-      position: absolute;
-      width: 0.1rem;
-      height: 0.8rem;
-      top: 50%;
-      transform: translateY(-50%);
-      background-color: rgb(238, 103, 92);
-      border-radius: 2px;
-      right: -0.6rem;
+      width: 0.15rem;
+      height: 1rem;
+      line-height: 1rem;
     }
 }
 
