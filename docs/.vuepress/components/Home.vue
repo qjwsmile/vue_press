@@ -1,8 +1,7 @@
 <template>
     <section class= "container ">
       <div class="line"></div>
-      <div>456</div>
-      <new-font></new-font>
+      <new-font class="font"></new-font>
     </section>
 </template>
 
@@ -52,6 +51,12 @@ export default {
   height: 100vh;
   .line{
    height: 3.6rem;
+  }
+  .font{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
   }
 }
 </style>
