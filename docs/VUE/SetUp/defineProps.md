@@ -4,6 +4,7 @@ title: defineProps 基础使用
 
 ::: warning 提示
   vue版本是 ^3.2.19
+  defineProps 就是vue2.x版本的 props
 :::
 
 ``` html {11-14}

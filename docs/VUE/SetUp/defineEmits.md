@@ -7,7 +7,8 @@ title: defineEmits 基础使用
 :::
 
 ::: tip 提示
-  在script里直接引用setup，不需要像3.x import vue 导出
+  在script里直接引用setup，不需要像3.x import vue 导出<br>
+  defineEmits 就是vue2.x版本的 this.$emit
 :::
 
 ::: details 核心代码
