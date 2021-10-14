@@ -20,5 +20,9 @@ module.exports = [
     "language": "javascript",
     "type": "text/javascript",
     "src": "/js/MouseClickEffect.js"
-  }]
+  }],
+  ['script', { src: 'https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js' }],
+  ['script', { src: 'https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js' }],
+  ['script', { src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js' }],
+  ['script', { src: 'https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js' }],
 ]

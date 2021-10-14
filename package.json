@@ -9,7 +9,7 @@
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh",
     "cname": "bash cname.sh",
-    "docs:nav": "vuepress nav docs"
+    "docs:nav": "vuepress nav docs -f"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +19,7 @@
     "async-validator": "1.11.5",
     "clipboard": "^2.0.4",
     "moment": "^2.29.1",
+    "vuepress-plugin-demo-block": "^0.7.2",
     "vuepress-plugin-live2d": "^0.0.7"
   },
   "devDependencies": {

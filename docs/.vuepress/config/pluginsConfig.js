@@ -1,8 +1,13 @@
 const secert = require('./secert')
+
+// https://github.com/xiguaxigua/vuepress-plugin-demo-block 目前使用
+// https://buptsteve.github.io/vuepress-plugin-demo-code/
+
+      
 module.exports = [
   ['@vuepress/back-to-top'],
   require("../plugins/copy/index"),
-  [
+   [
      '@vuepress/last-updated',
      {
        transformer: (timestamp) => {
@@ -100,5 +105,6 @@ module.exports = [
         "modelName": ['z16','Epsilon2.1','izumi','koharu','shizuku','miku', 'hijiki', 'tororo'],
         "mobileShow": false
       }
-  ]
+  ],
+  ["demo-block"]
  ]
