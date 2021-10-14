@@ -4,7 +4,8 @@ title: setup使用
 
 ::: warning 提示
   vuepress中Vue的版本暂时是2.x，效果演示截图<br>
-  vue版本是 ^3.2.19
+  vue版本是 ^3.2.19<br>
+  推荐大家安装vscode安装volar插件 可以分割代码并且提示特别友好
 :::
 
 ::: tip 提示
