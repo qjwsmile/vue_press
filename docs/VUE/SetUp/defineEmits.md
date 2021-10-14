@@ -1,5 +1,5 @@
 ---
-title: defineEmits基础使用
+title: defineEmits 基础使用
 ---
 
 ::: warning 提示
@@ -20,7 +20,7 @@ title: defineEmits基础使用
   ```
 :::
 
-``` html {2}
+``` html {2,7,8}
   <template>
     我是子组件
     <button @click="handleClick">触发父组件handleClick事件</button>

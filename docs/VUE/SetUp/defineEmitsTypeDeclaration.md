@@ -1,5 +1,5 @@
 ---
-title: defineEmits使用 类型检查
+title: defineEmits 使用泛型检查
 ---
 
 ::: warning 提示
@@ -20,9 +20,8 @@ title: defineEmits使用 类型检查
   ```
 :::
 
-``` html {2}
+``` html {6-9,12-14}
   <template>
-    我是子组件
     <button @click="方法名">interface</button>
   </template>
 
