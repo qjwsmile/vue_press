@@ -106,5 +106,8 @@ module.exports = [
         "mobileShow": false
       }
   ],
-  ["demo-block"]
+  ["demo-block"],
+  [
+    '@vuepress-reco/extract-code'
+  ]
  ]
