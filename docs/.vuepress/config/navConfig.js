@@ -3,9 +3,13 @@ module.exports = [
     "text": "VUE",
     "items": [
       {
-        "text": "Set Up",
+        "text": "setup",
         "link": "/VUE/SetUp/"
       }
     ]
+  },
+  {
+    "text": "JS",
+    "link": "/JS/"
   }
 ];
