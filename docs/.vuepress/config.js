@@ -9,6 +9,7 @@ module.exports = {
   title: 'smile',
   description: 'Just playing around',
   themeConfig:{
+    displayAllHeaders:false,
     lastUpdated: '更新时间',
     smoothScroll: true,
     nav

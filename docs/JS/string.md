@@ -103,9 +103,9 @@ title: 字符串方法
   console.log(str.toUpperCase('hello'));   // HELLO WORD
 ```
 
- ## toLowerCase
+ ## toUpperCase
 ``` js
-  // 转换小写
-  let str = "HELLO WORD";
-  console.log(str.toLowerCase('hello'));   // hello word WORD
+  // 转换大写
+  let str = "hello word";
+  console.log(str.toUpperCase('hello'));   // HELLO WORD
 ```

@@ -11,5 +11,13 @@ module.exports = [
   {
     "text": "JS",
     "link": "/JS/"
+  },
+  {
+    "text": "Css",
+    "link": "/Css/"
+  },
+  {
+    "text": "GitHub",
+    "link": "https://github.com/qjwsmile/vue_press"
   }
 ];
