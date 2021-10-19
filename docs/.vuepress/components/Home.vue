@@ -4,6 +4,9 @@
       <div class="font"> 
         <new-font ></new-font> 
       </div>
+      <div class="gov" >
+        <a href="https://beian.miit.gov.cn/">京ICP备2021014780号</a>
+      </div>
     </section>
 </template>
 
@@ -58,6 +61,17 @@ export default {
     margin-top: 30vh;
     display: flex;
     justify-content: center;
+  }
+  .gov{
+    text-align: center; 
+     padding: 10px 0;
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom:0;
+     a{
+       color: rgb(238, 103, 92);
+     }
   }
 }
 </style>

@@ -3,7 +3,6 @@ const plugins = require('./config/pluginsConfig')
 const nav = require("./config/navConfig");
 const path = require('path')
 module.exports = {
-  base:'/vue_press/',
   head,
   plugins,
   title: 'smile',

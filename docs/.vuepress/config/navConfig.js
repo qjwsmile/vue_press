@@ -13,8 +13,8 @@ module.exports = [
     "link": "/JS/"
   },
   {
-    "text": "Css",
-    "link": "/Css/"
+    "text": "CSS",
+    "link": "/CSS/"
   },
   {
     "text": "GitHub",
