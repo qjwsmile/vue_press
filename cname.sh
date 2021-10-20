@@ -1,4 +1,4 @@
 
 set -e
 
-echo 'https://qjwsmile.github.io/vue_press' > docs/.vuepress/dist/CNAME
+echo 'smile.qijianwei.com' > docs/.vuepress/dist/CNAME

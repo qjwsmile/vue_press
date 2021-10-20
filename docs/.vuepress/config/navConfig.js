@@ -1,20 +1,20 @@
 module.exports = [
   {
-    "text": "VUE",
+    "text": "vue",
     "items": [
       {
         "text": "setup",
-        "link": "/VUE/SetUp/"
+        "link": "/vue/SetUp/"
       }
     ]
   },
   {
-    "text": "JS",
-    "link": "/JS/"
+    "text": "css",
+    "link": "/css/"
   },
   {
-    "text": "CSS",
-    "link": "/CSS/"
+    "text": "js",
+    "link": "/js/"
   },
   {
     "text": "GitHub",
