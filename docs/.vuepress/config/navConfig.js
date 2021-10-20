@@ -4,7 +4,7 @@ module.exports = [
     "items": [
       {
         "text": "setup",
-        "link": "/vue/SetUp/"
+        "link": "/vue/setup/"
       }
     ]
   },
