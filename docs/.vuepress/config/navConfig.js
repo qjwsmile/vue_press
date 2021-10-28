@@ -17,6 +17,10 @@ module.exports = [
     "link": "/js/"
   },
   {
+    "text": "npm",
+    "link": "/npm/"
+  },
+  {
     "text": "GitHub",
     "link": "https://github.com/qjwsmile/vue_press"
   }

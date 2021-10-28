@@ -1,6 +1,6 @@
 ---
 title: css
-sidebarDepth: 4
+sidebarDepth: 2
 ---
 
 ## 盒子模型
@@ -117,17 +117,6 @@ absolute定位的元素，是相对于它的第一个position值不为static的�
 
 可以参考[《Flex 布局教程：语法篇》](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)[《Flex 布局教程：实例篇》](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
 
-### flex-direction
-决定主轴的方向（即项目的排列方向）
-```css 
-  .box {
-    flex-direction: row | row-reverse | column | column-reverse;
-  }
-  row（默认值）：主轴为水平方向，起点在左端。
-  row-reverse：主轴为水平方向，起点在右端。
-  column：主轴为垂直方向，起点在上沿。
-  column-reverse：主轴为垂直方向，起点在下沿
-```
 
 ### flex-wrap
 如果一条轴线排不下，如何换行。
@@ -247,4 +236,87 @@ align-self属性允许单个项目有与其他项目不一样的对齐方式，�
   center：交叉轴的中点对齐。
   baseline: 项目的第一行文字的基线对齐。
   stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度。
+```
+
+##  CSS 创建一个三角形
+  采用的是相邻边框连接处的均分原理。将元素的宽高设为0，只设置 border，
+  把任意三条边隐藏掉（颜色设为transparent），剩下的就是一个三角形。
+::: demo
+```html
+<template>
+  <div class="demo">
+  </div>
+</template>
+<script>
+export default {
+  methods: {
+  }
+}
+</script>
+<style>
+.demo {
+  width: 0;
+  height: 0;
+  border-width: 20px;
+  border-style: solid;
+  border-color: transparent transparent red transparent;
+  margin: 0 auto;
+}
+</style>
+:::
+
+##  reset CSS
+``` html
+  淘宝的样式初始化代码：
+  body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend
+  ,button,input,textarea,th,td{margin:0;padding:0;}
+  body,button,input,select,textarea{font:12px/1.5tahoma,arial,\5b8b\4f53;}
+  h1,h2,h3,h4,h5,h6{font-size:100%;}
+  address,cite,dfn,em,var{font-style:normal;}
+  code,kbd,pre,samp{font-family:couriernew,courier,monospace;}
+  small{font-size:12px;}
+  ul,ol{list-style:none;}
+  a{text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  sup{vertical-align:text-top;}
+  sub{vertical-align:text-bottom;}
+  legend{color:#000;}
+  fieldset,img{border:0;}
+  button,input,select,textarea{font-size:100%;}
+  table{border-collapse:collapse;border-spacing:0;}
+```
+
+## chrome 记住密码后表单的黄色背景
+```css
+  /* chrome表单自动填充后，input文本框的背景会变成黄色的，通过审查元素可以看到这是由于chrome
+  会默认给自动填充的input表单加上input:-webkit-autofill私有属性，然后对其赋予以下样式： */
+  {
+    background-color:rgb(250,255,189)!important;
+    background-image:none!important;
+    color:rgb(0,0,0)!important;
+  }
+  /* 对chrome默认定义的background-color，background-image，color使用important是不能提高其优先级的，
+  但是其他属性可使用。
+  使用足够大的纯色内阴影来覆盖input输入框的黄色背景，处理如下 */
+  input:-webkit-autofill,textarea:-webkit-autofill,select:-webkit-autofill{
+    -webkit-box-shadow:000px 1000px white inset;
+    border:1px solid #CCC !important;
+  }
+```
+
+## 去除 inline-block 元素间间距
+```html
+  移除空格、使用margin负值、使用font-size:0、letter-spacing、word-spacing
+```
+
+## overflow:scroll 平滑滚动
+```html
+  以下代码可解决这种卡顿的问题：-webkit-overflow-scrolling:touch;是因为这行代码启用了硬件加速特性，所以滑动很流畅。
+```
+
+## 0.5px
+```html
+   height: 1px;
+   transform: scaleY(0.5);
+   transform-origin: 50% 100%; // 防止线段虚化
 ```
